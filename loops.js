@@ -1,52 +1,52 @@
-// // loop example
+// loop example
 
-// const years = [1991, 2000, 1969, 1995];
-// const ages = [];
+const years = [1991, 2000, 1969, 1995];
+const ages = [];
 
-// for (let i=0; i < years.length; i++) {
-//     ages.push(2037 - years[i])
-// };
+for (let i=0; i < years.length; i++) {
+    ages.push(2037 - years[i])
+};
 
-// console.log(ages);
+console.log(ages);
 
-// // continue and break examples
+// continue and break examples
 
-// console.log('only strings');
-// for (let i=0; i < years.length; i++) {
-//     if (typeof jonas[i] !== 'string') continue;
-//     console.log(jonas[i], typeof jonas[i]);
-// }
+console.log('only strings');
+for (let i=0; i < years.length; i++) {
+    if (typeof jonas[i] !== 'string') continue;
+    console.log(jonas[i], typeof jonas[i]);
+}
 
-// console.log('break with number');
+console.log('break with number');
 
-// for (let i=0; i < years.length; i++) {
-//     if (typeof jonas[i] === 'number') break;
-//     console.log(jonas[i], typeof jonas[i]);
-// }
+for (let i=0; i < years.length; i++) {
+    if (typeof jonas[i] === 'number') break;
+    console.log(jonas[i], typeof jonas[i]);
+}
 
-// // looping backwards
+// looping backwards
 
-// for (lei i = jonas.length - 1; i>=0; i--) {
-//     console.log(i, jonas[i]);
-// };
+for (lei i = jonas.length - 1; i>=0; i--) {
+    console.log(i, jonas[i]);
+};
 
-// // loops in loops
+// loops in loops
 
-// for (let exe = 1; exe < 4; exe++) {
-//     console.log(`--starting exe ${exe}`);
-//     for (let rep = 1; rep < 6; rep++) {
-//         console.log(`Exe ${exe}: lifting weight rep ${rep}`);
-//     }
-// }
+for (let exe = 1; exe < 4; exe++) {
+    console.log(`--starting exe ${exe}`);
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Exe ${exe}: lifting weight rep ${rep}`);
+    }
+}
 
-// while loop
+while loop
 
-// let rep = 1; // primera condición, se debe definir fuera del while loop
+let rep = 1; // primera condición, se debe definir fuera del while loop
 
-// while (rep <= 10) {
-//     console.log(`WHILE loop ${rep}`);
-//     rep++; // ultima condición, se debe definir dentro del while loop
-// }
+while (rep <= 10) {
+    console.log(`WHILE loop ${rep}`);
+    rep++; // ultima condición, se debe definir dentro del while loop
+}
 
 // while loop para tirar un dado (dice)
 //math.trunc trunca el numero al entero
